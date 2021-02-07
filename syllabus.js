@@ -122,9 +122,9 @@ let see = 41;// here it shows identifier see has alredy been declared
      break;
  }
  case 1:{
-     let name ='sid'; here it won't show any syntax error.
-      because every case we using curlybraces{}.
-       then it the let regarding about that loop will be stayed there itself 
+     let name ='sid';// here it won't show any syntax error.
+      //because every case we using curlybraces{}.
+      // then it the let regarding about that loop will be stayed there itself 
      break;
  }
 }
@@ -155,11 +155,13 @@ checker = checking();// due IIFE(Immediatedly invoked function expression) this 
 /* 
 function check(){
     var messy = 'hai';
-    console.log(messy);
+    console.log(messy);// the inside of function only it works
 }
-checks = check();
-//console.log(messy); */
-
+checks = check();// if we wont mention funtion then it wont shows o/p but the memory allocated but we cant see the o/p
+//console.log(messy); // if gives out side of function then it throws error: ReferneceError: messy is not defined
+ */
+/* 
+//math
 var math = 34.43567;
 console.log(Math.floor(math));// it gives only integer number o/p = 34
 console.log(Math.ceil(math));// it gives incremented number o/p = 35
@@ -179,6 +181,7 @@ console.log(Math.exp(math));// it gives the exponetial value of given number
 console.log(Math.fround(math)); // The Math.fround() function returns the nearest 32-bit single precision float representation of a Number.
 console.log(Math.log(math));// it gives the log value of given number o/p=3.53909
 console.log(Math.log10(math));// it gives the log^10 value of given number o/p = 1.537008
+ */
 
 
 
