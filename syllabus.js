@@ -103,13 +103,13 @@ const firstorder = () => console.log('this is arrow function');
 
 //console.log(cars.splice(0,0,{name:'white car'}));
 //console.log(cars);
-
+/* 
 let counter = 30;
 if(counter === 30){
     let counter = 31;
     console.log(counter);// if we try to update outside of condition then it will give error. 
 }
-console.log(counter);
+console.log(counter); */
 /* 
 let see = 40;
 let see = 41;// here it shows identifier see has alredy been declared
@@ -152,13 +152,43 @@ checker = checking();// due IIFE(Immediatedly invoked function expression) this 
 //If you try to access variables with IIFE then it throws an error as below,
 */
 
-
+/* 
 function check(){
     var messy = 'hai';
     console.log(messy);
 }
 checks = check();
-//console.log(messy);
+//console.log(messy); */
+
+var math = 34.43567;
+console.log(Math.floor(math));// it gives only integer number o/p = 34
+console.log(Math.ceil(math));// it gives incremented number o/p = 35
+console.log(Math.random(math));// it gives a random number from 0-34 o/p = 0.98486;
+console.log(Math.abs(math));// it gives a absolute number o/p = 34.43567
+console.log(Math.cos(math));// it gives cosine value of given number o/p = -0.99258556
+console.log(Math.pow(math));// for this given number it given NaN
+console.log(Math.sqrt(math));// it gives square root of given number o/p = 5.868
+console.log(Math.PI);// it gives PI number o/p = 3.141592
+console.log(Math.atan(math));// it is used to return the arctangent of a number in radians o/p = 1.54176
+console.log(Math.atan2(math));//method returns a numeric value between -π and π representing the angle theta of an (x, y) point. This is the counterclockwise angle, measured in radians, between the positive X axis, and the point (x, y) ./
+console.log(Math.E);//it Eluers number 2.7182
+console.log(Math.SQRT2);// it gives square root of 2 1.41421
+console.log(Math.max(math));// it is used for arrays here o/p = 34.43567
+console.log(Math.min(math));// it is also used for arrays here o/p = 34.43567
+console.log(Math.exp(math));// it gives the exponetial value of given number
+console.log(Math.fround(math)); // The Math.fround() function returns the nearest 32-bit single precision float representation of a Number.
+console.log(Math.log(math));// it gives the log value of given number o/p=3.53909
+console.log(Math.log10(math));// it gives the log^10 value of given number o/p = 1.537008
+
+
+
+
+
+
+
+
+
+
 
 
 
