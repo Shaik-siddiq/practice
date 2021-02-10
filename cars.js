@@ -5,7 +5,7 @@ console.log(cars)
 
 /* 
 const insert = (cars, index, newItem) => [
-    ...cars.slice(0, index),
+    ...cars.slice(0, index),  
     newItem,
     ...cars.slice(index)
   ]

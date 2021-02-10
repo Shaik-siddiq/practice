@@ -175,7 +175,7 @@ and reflect on how much better this solution is*/
 let populationse = [223,33,443,534,34,56];
 for(populatione of populationse){
  populatione/7500*100;
-}
+}   
 console.log(populatione);
 
 let popus = populationse.map( popu => popu/7500*100)

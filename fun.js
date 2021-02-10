@@ -14,7 +14,7 @@ let number =15;
 let isPrime = true;
 if(number===1){
     console.log(`${number} is not a prime number`);
-}
+}    
 else if (number >1){
     for(n=2; n<number; n++){
         if(number%n ==0){

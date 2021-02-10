@@ -20,7 +20,7 @@ switch (language) {
     break;
     case 'english':
     console.log('3rd place');
-    break;
+    break;  
     case 'hindi':
     console.log('Number 4');
     break;
