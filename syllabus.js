@@ -101,7 +101,7 @@ const firstorder = () => console.log('this is arrow function');
 */
 
 
-//console.log(cars.splice(0,0,{name:'white car'}));
+//console.log(cars.splice(0,0,{name:'white .car'}));
 //console.log(cars);
 /* 
 let counter = 30;
